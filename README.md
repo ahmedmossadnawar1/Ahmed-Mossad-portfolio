@@ -1,24 +1,29 @@
-# Ahmed Mossad Nawar — Portfolio
+# Ahmed Mossad Nawar, Portfolio
 
-A responsive React + Vite personal portfolio based strictly on the supplied CV.
+My personal portfolio website, built with React and Vite. It presents my background, skills, projects, education, and certifications in cloud and DevOps engineering.
 
-## Run locally
+## Tech Stack
+
+- React 18, Vite 6
+- lucide-react icons
+- Plain CSS (custom design, responsive)
+
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Production build
+Then open http://localhost:5173
+
+## Production Build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Notes
+## Deployment
 
-- Content is sourced from the supplied CV only.
-- LinkedIn and contact details are included because they appear in the CV.
-- GitHub is referenced in the CV but no GitHub URL was provided, so no fabricated GitHub link is included.
-- No backend contact form is implemented; the contact CTA uses email.
+The site is static and can be deployed to GitHub Pages, Vercel, or Netlify.
